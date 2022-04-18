@@ -1,0 +1,70 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{dictionary}
+\selectlanguageifdefined{russian}
+Словари [Электронный ресурс].
+\newblock Режим доступа:
+  \url{https://younglinux.info/python/dictionary} (дата обращения:
+  27.11.2021).
+
+\bibitem{search-full}
+\selectlanguageifdefined{russian}
+Полный перебор [Электронный ресурс].
+\newblock Режим доступа:
+  \url{http://skud-perm.ru/posts/polnyj-perebor} (дата обращения:
+  27.11.2021).
+
+\bibitem{search-bin}
+\selectlanguageifdefined{russian}
+Бинарный поиск [Электронный ресурс].
+\newblock Режим доступа: \url{https://prog-cpp.ru/search-binary/}
+  (дата обращения: 27.11.2021).
+
+\bibitem{search-segments}
+\selectlanguageifdefined{russian}
+Нильсон Н. Искусственный интеллект. Методы
+  поиска решений.
+\newblock 1973.
+
+\bibitem{python-lang}
+\selectlanguageifdefined{russian}
+Welcome to Python [Электронный ресурс].
+\newblock Режим доступа: \url{https://www.python.org} (дата
+  обращения: 23.11.2021).
+
+\bibitem{python-lang-time}
+\selectlanguageifdefined{russian}
+time — Time access and conversions [Электронный ресурс].
+\newblock Режим доступа:
+  \url{https://docs.python.org/3/library/time.html#functions} (дата
+  обращения: 27.11.2021).
+
+\bibitem{ubuntu}
+\selectlanguageifdefined{russian}
+Ubuntu 20.04.3 LTS (Focal Fossa) [Электронный ресурс].
+\newblock Режим доступа: \url{https://releases.ubuntu.com/20.04/}
+  (дата обращения: 27.11.2021).
+
+\bibitem{linux}
+\selectlanguageifdefined{russian}
+Linux [Электронный ресурс].
+\newblock Режим доступа:
+  \url{https://www.linux.org/forums/#linux-tutorials.122} (дата
+  обращения: 27.11.2021).
+
+\bibitem{intel}
+\selectlanguageifdefined{russian}
+Процессор Intel® Core™ i5-7300HQ [Электронный
+  ресурс].
+\newblock Режим доступа:
+  \url{https://ark.intel.com/content/www/ru/ru/ark/products/97456/intel-core-i5-7300hq-processor-6m-cache-up-to-3-50-ghz.html}
+  (дата обращения: 25.11.2021).
+
+\end{thebibliography}
