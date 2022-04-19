@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.29)  19 APR 2022 01:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.29)  20 APR 2022 00:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1447,7 +1447,7 @@ Overfull \hbox (145.11053pt too wide) in paragraph at lines 22--26
  []
 
 
-Overfull \hbox (41.94348pt too wide) in paragraph at lines 29--34
+Overfull \hbox (18.44922pt too wide) in paragraph at lines 29--34
 \T2A/cmr/bx/n/12 Тема $[]$ 
  []
 
@@ -1457,8 +1457,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--34
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--34
-
+Overfull \hbox (21.21587pt too wide) in paragraph at lines 29--34
+\T2A/cmr/bx/n/12 Студент $[]$ 
  []
 
 
@@ -1467,7 +1467,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--34
  []
 
 
-Overfull \hbox (3.09396pt too wide) in paragraph at lines 29--34
+Overfull \hbox (18.22917pt too wide) in paragraph at lines 29--34
+\T2A/cmr/bx/n/12 Группа $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--34
+
+ []
+
+
+Overfull \hbox (22.67252pt too wide) in paragraph at lines 29--34
 \T2A/cmr/bx/n/12 Оценка (бал-лы) $[]$ 
  []
 
@@ -1539,8 +1549,8 @@ LaTeX Font Info:    Trying to load font information for TS1+cmss on input line
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [5
 
-] [6]) [7]
-<img/gisto.jpg, id=353, 509.905pt x 391.4625pt>
+] [6] [7] [8]) [9]
+<img/gisto.jpg, id=361, 509.905pt x 391.4625pt>
 File: img/gisto.jpg Graphic file (type jpg)
 <use img/gisto.jpg>
 Package pdftex.def Info: img/gisto.jpg  used on input line 197.
@@ -1549,7 +1559,7 @@ Package pdftex.def Info: img/gisto.jpg  used on input line 197.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<img/emperic.jpg, id=354, 517.935pt x 402.50375pt>
+<img/emperic.jpg, id=362, 517.935pt x 402.50375pt>
 File: img/emperic.jpg Graphic file (type jpg)
 <use img/emperic.jpg>
 Package pdftex.def Info: img/emperic.jpg  used on input line 199.
@@ -1557,26 +1567,26 @@ Package pdftex.def Info: img/emperic.jpg  used on input line 199.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [8] [9 <./img/gisto.jpg> <./img/emperic.jpg>] (report.aux (title.aux)
+) [10] [11 <./img/gisto.jpg> <./img/emperic.jpg>] (report.aux (title.aux)
 (analysis.aux))
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 8C2CC586AA52C02563F6E62EA2CD64FB;2429.
  ) 
 Here is how much of TeX's memory you used:
- 39357 strings out of 478906
- 893242 string characters out of 2855277
- 1934479 words of memory out of 3000000
+ 39359 strings out of 478906
+ 893261 string characters out of 2855277
+ 1794479 words of memory out of 3000000
  56199 multiletter control sequences out of 15000+600000
- 422392 words of font info for 63 fonts, out of 8000000 for 9000
+ 422336 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 106i,9n,108p,748b,2485s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/amunra23/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcsi0
-600.pk> </home/amunra23/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/
-tcss0600.pk> </home/amunra23/.miktex/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi6
-00/lasi0600.pk> </home/amunra23/.miktex/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/d
-pi600/lass0600.pk> </home/amunra23/.miktex/texmfs/data/fonts/pk/ljfour/lh/lh-t2
-a/dpi600/lasx0600.pk> </home/amunra23/.miktex/texmfs/data/fonts/pk/ljfour/lh/lh
--t2a/dpi600/larm0600.pk> </home/amunra23/.miktex/texmfs/data/fonts/pk/ljfour/jk
+ 106i,9n,108p,748b,2495s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/amunra23/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcsi1
+000.pk> </home/amunra23/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/
+tcss1000.pk> </home/amunra23/.miktex/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi6
+00/lasi1000.pk> </home/amunra23/.miktex/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/d
+pi600/lass1000.pk> </home/amunra23/.miktex/texmfs/data/fonts/pk/ljfour/lh/lh-t2
+a/dpi600/lasx1000.pk> </home/amunra23/.miktex/texmfs/data/fonts/pk/ljfour/lh/lh
+-t2a/dpi600/larm1000.pk> </home/amunra23/.miktex/texmfs/data/fonts/pk/ljfour/jk
 nappen/ec/dpi600/tcrm1440.pk> </home/amunra23/.miktex/texmfs/data/fonts/pk/ljfo
 ur/lh/lh-t2a/dpi600/lati1440.pk> </home/amunra23/.miktex/texmfs/data/fonts/pk/l
 jfour/lh/lh-t2a/dpi600/larm1440.pk> </home/amunra23/.miktex/texmfs/data/fonts/p
@@ -1592,9 +1602,9 @@ exmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></home/amunra23/.miktex
 x/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/amunra23/.mikt
 ex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/amunra23/.mik
 tex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (10 pages, 397832 bytes).
+Output written on report.pdf (12 pages, 409224 bytes).
 PDF statistics:
- 1029 PDF objects out of 1200 (max. 8388607)
- 315 named destinations out of 1000 (max. 500000)
+ 1037 PDF objects out of 1200 (max. 8388607)
+ 317 named destinations out of 1000 (max. 500000)
  120 words of extra memory for PDF output out of 10000 (max. 10000000)
 
