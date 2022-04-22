@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.29)  20 APR 2022 00:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.29)  20 APR 2022 23:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1526,19 +1526,19 @@ l.23 \chapter
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 [3] [4]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
 LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
-146.
+152.
 (/home/amunra23/.miktex/texmfs/install/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
@@ -1553,7 +1553,7 @@ File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 <img/gisto.jpg, id=361, 509.905pt x 391.4625pt>
 File: img/gisto.jpg Graphic file (type jpg)
 <use img/gisto.jpg>
-Package pdftex.def Info: img/gisto.jpg  used on input line 197.
+Package pdftex.def Info: img/gisto.jpg  used on input line 203.
 (pdftex.def)             Requested size: 333.57396pt x 256.0748pt.
 
 
@@ -1562,7 +1562,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <img/emperic.jpg, id=362, 517.935pt x 402.50375pt>
 File: img/emperic.jpg Graphic file (type jpg)
 <use img/emperic.jpg>
-Package pdftex.def Info: img/emperic.jpg  used on input line 199.
+Package pdftex.def Info: img/emperic.jpg  used on input line 205.
 (pdftex.def)             Requested size: 329.5094pt x 256.0748pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1575,7 +1575,7 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 Here is how much of TeX's memory you used:
  39359 strings out of 478906
  893261 string characters out of 2855277
- 1794479 words of memory out of 3000000
+ 1794482 words of memory out of 3000000
  56199 multiletter control sequences out of 15000+600000
  422336 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1602,7 +1602,7 @@ exmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></home/amunra23/.miktex
 x/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/amunra23/.mikt
 ex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/amunra23/.mik
 tex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (12 pages, 409224 bytes).
+Output written on report.pdf (12 pages, 410025 bytes).
 PDF statistics:
  1037 PDF objects out of 1200 (max. 8388607)
  317 named destinations out of 1000 (max. 500000)
