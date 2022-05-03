@@ -1,0 +1,83 @@
+\chapter{Задание на лабораторную работу}
+
+\textbf{Цель работы:} построение доверительных интервалов для математического ожидания и дисперсии нормальной случайной величины.
+
+\section{Содержание работы}
+
+\begin{enumerate}
+    \item Для выборки объема $n$ из нормальной генеральной совокупности $X$ реализовать в виде программы на ЭВМ
+
+    \begin{enumerate}
+        \item вычисление точечных оценок $\hat\mu(\vec x_n)$ и $S^2(\vec x_n)$ математического ожидания $MX$ и дисперсии $DX$ соответственно;
+        \item вычисление нижней и верхней границ $\underline\mu(\vec x_n)$, $\overline\mu(\vec x_n)$  для\newline$\gamma$-доверительного интервала для математического ожидания $MX$;
+        \item вычисление нижней и верхней границ $\underline\sigma^2(\vec x_n)$, $\overline\sigma^2(\vec x_n)$  для\newline$\gamma$-доверительного интервала для дисперсии $DX$;
+    \end{enumerate}
+
+    \item вычислить $\hat\mu$ и $S^2$ для выборки из индивидуального варианта;
+
+    \item для заданного пользователем уровня доверия $\gamma$ и $N$ --- объема выборки из индивидуальноговарианта:
+
+    \begin{enumerate}
+        \item на координатной плоскости $Oyn$ построить прямую $y = \hat\mu(\vec x_N)$, также графики функций $y = \hat\mu(\vec x_n)$, $y = \underline\mu(\vec x_n)$ и $y = \overline\mu(\vec x_n)$ как функций объема $n$ выборки, где $n$ изменяется от $1$ до $N$;
+        \item на другой координатной плоскости $Ozn$ построить прямую\newline$z = S^2(\vec x_N)$, также графики функций $z = S^2(\vec x_n)$, $z = \underline\sigma^2(\vec x_n)$ и $y = \overline\sigma^2(\vec x_n)$ как функций объема $n$ выборки, где $n$ изменяется от\newline$1$ до $N$.
+    \end{enumerate}
+\end{enumerate}
+
+
+\chapter{Теоретическая часть}
+
+\subsubsection{Определение доверительного интервала для значения параметра распределения случайной величины}
+
+\textbf{\underline{Определение}}: Интервальной оценкой параметра $\theta$ уровня $\gamma \in (0, 1)$ называется пара статистик $\underline\theta(\vec X)$ и $\overline\theta(\vec X)$ таких, что
+
+\begin{equation}
+    P {\theta \in (\underline\theta(\vec X), \overline\theta(\vec X))} = \gamma.
+\end{equation}
+
+
+\textbf{\underline{Определение}}: $\gamma$-доверительным интервалом для параметра $\theta$ называют реализацию интервальной оценки уровня $\gamma$ для этого параметра, то есть интервал $(\underline\theta(\vec X), \overline\theta(\vec X))$ с детерминированными границами.
+
+
+\subsubsection{Формулы для вычисления границ доверительного интервала для математического ожидания и дисперсии нормальной случайной величины}
+
+\begin{small}
+\begin{center}
+    \captionsetup{justification=raggedright,singlelinecheck=off}
+    \begin{longtable}[c]{|p{4cm}|p{6cm}|p{5cm}|}
+    \caption{Таблица границ доверительных интервалов} \\ \hline
+		\textbf{Параметры} & \textbf{Центральная статистика} & \textbf{Границы} \\ \hline
+		$\mu$ -- неизвестно, \newline $\sigma$ -- известно,\newline Оценить $\mu$ & \newline $\frac{\mu - \overline{X}}{\sigma} \sqrt{n} \sim N(0,1)$ &  $\underline\mu(\vec X_n) = \overline{X} - \frac{u_{1 - \alpha} \sigma}{\sqrt{n}}$ \newline\newline $\overline\mu(\vec X_n) = \overline{X} + \frac{u_{1 - \alpha} \sigma}{\sqrt{n}}$ \\ \hline
+		
+        $\mu$ -- неизвестно, \newline $\sigma$ -- неизвестно,\newline Оценить $\mu$ & \newline $\frac{\mu - \overline{X}}{S(\vec X_n)} \sqrt{n} \sim St(n - 1)$ &  $\underline\mu(\vec X_n) = \overline{X} - \frac{t_{1 - \alpha} S(\vec X_n)}{\sqrt{n}}$ \newline\newline $\overline\mu(\vec X_n) = \overline{X} + \frac{t_{1 - \alpha} S(\vec X_n)}{\sqrt{n}}$ \\ \hline
+
+        $\sigma$ -- неизвестно,\newline Оценить $\sigma^2$ & \newline $\frac{(n - 1) S^2(\vec X_n)}{\sigma^2} \sim \chi^2(n - 1)$ &  $\underline\sigma^2(\vec X_n) = \frac{S^2(\vec X_n) (n - 1)}{h_{1 - \alpha}}$ \newline\newline $\overline\sigma^2(\vec X_n) = \frac{S^2(\vec X_n) (n - 1)}{h_{\alpha}}$ \\ \hline
+	\end{longtable}
+\end{center}
+\end{small}
+
+В таблице $\alpha = \frac{1 - \gamma}{2}$; $u_{\alpha}$, $t_{\alpha}$, $h_{\alpha}$ --- квантилии уровня $\alpha$ нормального распределния, распределения Стьюдента и распределения хи-квадрат соответственно; \newline $\overline{X} = \frac {1}{n} \sum_{i=1}^n X_i$; $S^2(\vec X_n) = \frac 1{n-1} \sum_{i=1}^n (X_i-\overline X)^2$.
+
+
+\chapter{Практическая часть}
+
+\section{Код программы}
+
+\lstinputlisting{../src/main.m}
+
+
+\section{Результат работы программы}
+
+\subsubsection{Вывод программы}
+
+\begin{lstlisting}
+
+Выборочное среднее (оценка мат ожидания) = -15.2209
+Исправленная выборочная дисперсия (оценка дисперсии) = 0.9680
+
+Интервал для M: (-15.3698, -15.0720)
+Интервал для D: (0.7919, 1.2150)
+\end{lstlisting}
+
+\imgHeight{90mm}{mu}{Графики для математического ожидания}
+
+\imgHeight{90mm}{s2}{Графики для дисперсии}
