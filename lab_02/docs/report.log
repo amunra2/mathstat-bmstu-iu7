@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.29)  3 MAY 2022 19:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.29)  3 MAY 2022 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1447,6 +1447,11 @@ Overfull \hbox (145.11053pt too wide) in paragraph at lines 22--26
  []
 
 
+Overfull \hbox (20.07874pt too wide) in paragraph at lines 29--34
+\T2A/cmr/bx/n/12 Тема $[]$ 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 29--34
 
  []
@@ -1614,7 +1619,7 @@ mfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/amunra23/.miktex/tex
 mfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/amunra23/.miktex/t
 exmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/amunra23/.miktex/
 texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on report.pdf (8 pages, 398629 bytes).
+Output written on report.pdf (8 pages, 398630 bytes).
 PDF statistics:
  812 PDF objects out of 1000 (max. 8388607)
  192 named destinations out of 1000 (max. 500000)

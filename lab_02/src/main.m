@@ -1,5 +1,5 @@
 function lab_02()
-    X = csvread('data21.csv');
+    X = csvread('test.csv');
     
     % Оценки мат ожидания и дисперсии
     mu = CalcMu(X);
