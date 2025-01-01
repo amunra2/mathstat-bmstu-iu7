@@ -6,7 +6,7 @@
 
 ## Общая информация
 
-* **Тема**: Гистограмма и эмпирическая функция распределенияа
+* **Тема**: Гистограмма и эмпирическая функция распределения
 * **Вариант**: 21
 * **Отчет**: [ссылка](https://github.com/amunra2/mathstat-bmstu-iu7/blob/main/lab_01/docs/report.pdf)
 * **Код**: [ссылка](https://github.com/amunra2/mathstat-bmstu-iu7/tree/main/lab_01/src)
